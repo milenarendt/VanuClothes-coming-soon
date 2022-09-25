@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     background: linear-gradient(90deg, #FF8000 17.71%, #FFB200 67.19%, rgba(255, 255, 0, 0.9) 100%);
 }
 
+
+
 main {
     display: grid;
-    grid-template-columns: 60% 20%;
+    grid-template-columns: 55% 0;
     align-content: center;
 }
 
@@ -53,6 +57,8 @@ main section p {
     margin-top: 15px;
 }
 
+
+
 main section form {
     margin-top: 72px;
     display: flex; /* para deixar o botão e input alinhados */
@@ -64,6 +70,7 @@ main section form input {
     border: 2px solid red;
     background-color: #FF4000; 
     outline: none;
+    color: white;
 
     width: 278px;
     height: 33px;
@@ -89,10 +96,11 @@ main section form button:hover {
     transform: scale(1.04);
 }
 
+
+
 .socialmedia {
     margin-top: 38px;
 }
-
 
 .instagram {
     margin-right: 17px;
@@ -103,20 +111,24 @@ main section form button:hover {
 }
     
 
+
 .images {
-    margin: 159px 171px 158px 0;
+    margin: 159px 171px 158px 0; /* no margin, se o conteúdo for maior o lado direito não é respeitado */
     display: grid; /* para tirar os espaços entre as imagens */
 }
 
 .image1 {
-    width: 100%;
+    width: 100%; /* para a imagem 1 não ultrapassar a largura da caixa */
 }
+
+
 
 .adesivo {
     position: absolute;
     z-index: 2;
-    top: 789px;
-    left: 1105px;
+    top: 760px;
+    left: 1000px;
+    right: 50px;
     text-align: center;
 }
 
