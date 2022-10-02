@@ -90,10 +90,21 @@ main section div form button {
     font-weight: 500;
     font-size: 0.8vw;
     line-height: 27px;
+
+    transition: transform .3s;
+}
+
+main section form button:hover {
+    transform: scale(1.04);
 }
 
 svg {
     margin-top: 1vw;
+    transition: transform .3s;
+}
+
+svg:hover {
+    transform: scale(1.04);
 }
 
 .instagram {
