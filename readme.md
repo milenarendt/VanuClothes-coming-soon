@@ -14,6 +14,7 @@ Projeto autoral, contruído com o intuito de divulgação da marca.
 
 - HTML
 - CSS
+- Figma
 
 
 ## Contato ☎
